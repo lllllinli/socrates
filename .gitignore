@@ -1,0 +1,8 @@
+# build directer
+/dist
+
+# webstore
+/.idea
+
+# node_modules
+/node_modules
