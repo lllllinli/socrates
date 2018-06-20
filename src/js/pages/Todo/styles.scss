@@ -1,0 +1,13 @@
+.wrapper-say {
+  background-color: #161616;
+  width: 320px;
+  margin: 0 auto;
+
+  .btn-say {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    cursor: pointer;
+  }
+}

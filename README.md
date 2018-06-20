@@ -18,7 +18,11 @@ react router 4
 + react route
 [Doc](https://reacttraining.com/react-router/web/guides/philosophy)
 + redux
+[Doc](https://redux.js.org/)
 + rx
+[Doc](http://reactivex.io/)
++ redux-observable (redux middleware)
+[Doc](https://redux-observable.js.org/)
 + bootsrap
 + postcss
 
