@@ -3,5 +3,9 @@ import ReactDom from 'react-dom';
 import App from './js/App';
 import './styles.scss';
 
+const { document } = window;
+
 const wrapper = document.getElementById('root');
-wrapper ? ReactDom.render(<App />, wrapper) : false;
+if (wrapper) {
+  ReactDom.render(<App />, wrapper);
+}

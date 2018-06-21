@@ -1,0 +1,23 @@
+{
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "no-console": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "to" ]
+    }],
+    "no-tabs": 0,
+    "no-mixed-spaces-and-tabs": [0, "smart-tabs"],
+    "react/jsx-indent": ["tab", "tab"]
+  }
+}

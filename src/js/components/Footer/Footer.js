@@ -3,8 +3,9 @@ import React from 'react';
 const Footer = () => (
 	<footer className="mastfoot mt-auto">
 		<div className="inner">
-			<p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
-				href="https://twitter.com/mdo">@mdo</a>.</p>
+			<p>
+				Cover template for <p>Bootstrap</p>, by<p>@mdo</p>.
+			</p>
 		</div>
 	</footer>
 );
